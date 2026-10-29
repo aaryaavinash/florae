@@ -1,13 +1,13 @@
 # Florae
 
-A standalone [Dioramas](https://github.com/blendi-remade/dioramas) world. This repository opens **Florae** directly at `/`.
+Florae is a standalone botanical experience. Its Three.js foundation originated in [Dioramas](https://github.com/blendi-remade/dioramas). The site opens directly at `/`.
 
 ```bash
 npm ci
 npm run dev
 ```
 
-Open http://127.0.0.1:5190/. The site code is JavaScript in `examples/florae/`, with the shared Three.js engine in `src/core/`. Vite builds the site; Tailwind utilities are available without resetting the original CSS. GSAP and Lenis power its motion and scrolling.
+Open http://127.0.0.1:5190/. The site code is JavaScript in `src/`, with rendering and interaction modules in `src/core/`. Models live in `public/models/`. Vite builds the site; Tailwind utilities are available without resetting the original CSS. GSAP and Lenis power its motion and scrolling.
 
 Code: MIT. Generated assets: CC BY 4.0. See `LICENSE` and `ASSET-LICENSES.md`.
 

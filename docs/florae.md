@@ -1,4 +1,4 @@
-# 06 · Florae — "Two hundred thousand petals, one gesture"
+# Florae — "Two hundred thousand petals, one gesture"
 Brand: **Florae** — a botanical archive and flower atelier that sends one extraordinary specimen per month.
 
 ## Signature interaction

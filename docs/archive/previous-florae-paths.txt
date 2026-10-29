@@ -1,0 +1,15 @@
+// ORIGINAL (preserved, not deleted — disabled by comment): previous nested paths and collection call
+// import { Engine, THREE, normalize, damp, clamp, smooth, lerp } from '../../src/core/engine.js';
+// import { Assets, firstMesh } from '../../src/core/assets.js';
+// import { Pointer } from '../../src/core/input.js';
+// import { smoothScroll, gsap, reveal, SplitText } from '../../src/core/scroll.js';
+// // ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+// import { preloader, cursor, magnetic } from '../../src/core/ui.js';
+// import { bakeTexture } from '../../src/core/textures.js';
+//   { key: 'rose', file: 'models/florae/rose.glb', size: 2.4, axis: 'y', heart: 'top' },
+//   { key: 'protea', file: 'models/florae/protea.glb', size: 2.55, axis: 'y', heart: 'top' },
+//   { key: 'orchid', file: 'models/florae/orchid.glb', size: 2.6, axis: 'max', heart: 'bottom' },
+//   { key: 'morpho', file: 'models/florae/morpho.glb', size: 2.6, axis: 'max', heart: 'center' },
+// // ORIGINAL (preserved, not deleted — disabled by comment): worldNav('florae', { theme: 'light', corner: 'bl' });
+//   <link rel="stylesheet" href="./examples/florae/style.css">
+//   <script type="module" src="./examples/florae/main.js"></script>

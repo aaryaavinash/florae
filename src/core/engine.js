@@ -1,5 +1,5 @@
 // Shared render core: renderer, camera, HDR post stack, frame loop.
-// Every page builds on this so tone mapping, AO and bloom behave identically across the collection.
+// Florae uses this for consistent tone mapping, AO and bloom.
 import * as THREE from 'three';
 import {
   EffectComposer, RenderPass, EffectPass, BloomEffect, ToneMappingEffect, ToneMappingMode,

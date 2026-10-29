@@ -1,11 +1,10 @@
 import './tailwind.css';
-import { Engine, THREE, normalize, damp, clamp, smooth, lerp } from '../../src/core/engine.js';
-import { Assets, firstMesh } from '../../src/core/assets.js';
-import { Pointer } from '../../src/core/input.js';
-import { smoothScroll, gsap, reveal, SplitText } from '../../src/core/scroll.js';
-// ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
-import { preloader, cursor, magnetic } from '../../src/core/ui.js';
-import { bakeTexture } from '../../src/core/textures.js';
+import { Engine, THREE, normalize, damp, clamp, smooth, lerp } from './core/engine.js';
+import { Assets, firstMesh } from './core/assets.js';
+import { Pointer } from './core/input.js';
+import { smoothScroll, gsap, reveal, SplitText } from './core/scroll.js';
+import { preloader, cursor, magnetic } from './core/ui.js';
+import { bakeTexture } from './core/textures.js';
 import { GPUComputationRenderer } from 'three/examples/jsm/misc/GPUComputationRenderer.js';
 import { sampleMesh, packShape, spiralShape, anchorOf } from './shapes.js';
 import { VELOCITY, POSITION, CORE_VERT, CORE_FRAG, GLOW_VERT, GLOW_FRAG, MOTE_VERT, MOTE_FRAG, PAPER_VERT, PAPER_FRAG } from './shaders.js';
@@ -90,10 +89,10 @@ scene.add(paper);
 
 // ─── Specimens ──────────────────────────────────────────────────────────────
 const SPECS = [
-  { key: 'rose', file: 'models/florae/rose.glb', size: 2.4, axis: 'y', heart: 'top' },
-  { key: 'protea', file: 'models/florae/protea.glb', size: 2.55, axis: 'y', heart: 'top' },
-  { key: 'orchid', file: 'models/florae/orchid.glb', size: 2.6, axis: 'max', heart: 'bottom' },
-  { key: 'morpho', file: 'models/florae/morpho.glb', size: 2.6, axis: 'max', heart: 'center' },
+  { key: 'rose', file: 'models/rose.glb', size: 2.4, axis: 'y', heart: 'top' },
+  { key: 'protea', file: 'models/protea.glb', size: 2.55, axis: 'y', heart: 'top' },
+  { key: 'orchid', file: 'models/orchid.glb', size: 2.6, axis: 'max', heart: 'bottom' },
+  { key: 'morpho', file: 'models/morpho.glb', size: 2.6, axis: 'max', heart: 'center' },
 ];
 const yieldFrame = () => new Promise(r => setTimeout(r, 0));
 async function buildShapes() {
@@ -565,7 +564,6 @@ engine.onTick((dt, t) => {
 });
 
 // ─── Boot ───────────────────────────────────────────────────────────────────
-// ORIGINAL (preserved, not deleted — disabled by comment): worldNav('florae', { theme: 'light', corner: 'bl' });
 cursor({ color: '#a8284b', blend: 'normal', size: 30 });
 magnetic();
 const lenis = smoothScroll({ lerp: 0.08 });

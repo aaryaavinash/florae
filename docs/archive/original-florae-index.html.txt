@@ -1,3 +1,4 @@
+<!-- ORIGINAL (preserved, not deleted — disabled by comment): prior nested Florae HTML entry -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -239,3 +240,11 @@
   <script type="module" src="./main.js"></script>
 </body>
 </html>
+
+<!-- ORIGINAL (preserved, not deleted — disabled by comment):
+<!doctype html>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url=/examples/florae/">
+<title>florae</title>
+<a href="/examples/florae/">Open florae</a>
+-->
