@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">Florae — a flower a month</title>
+  <desc id="desc">An editorial botanical plate: crimson rose on warm paper beside the Florae wordmark.</desc>
+  <defs>
+    <radialGradient id="paper"><stop stop-color="#faf6ee"/><stop offset="1" stop-color="#f1e8db"/></radialGradient>
+    <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f25479"/><stop offset=".53" stop-color="#d53b63"/><stop offset="1" stop-color="#8e193a"/></linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8f9554"/><stop offset="1" stop-color="#505d2f"/></linearGradient>
+    <pattern id="paperGrain" width="31" height="37" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".65" fill="#8f745e" opacity=".14"/><circle cx="23" cy="27" r=".55" fill="#8f745e" opacity=".13"/></pattern>
+    <g id="outerPetal"><path d="M0 7C-34-2-85-33-75-78C-50-117-18-92 0-62C18-92 50-117 75-78C85-33 34-2 0 7Z" fill="url(#petal)" stroke="#87203e" stroke-width="1.3"/><path d="M-53-73C-30-91-10-72 0-51C10-72 30-91 53-73" fill="none" stroke="#ffd1d8" stroke-opacity=".65" stroke-width="2"/></g>
+    <g id="innerPetal"><path d="M0 7C-24-8-39-30-31-54C-17-76-5-45 0-36C5-45 17-76 31-54C39-30 24-8 0 7Z" fill="url(#petal)" stroke="#8e193a" stroke-width="1.1"/></g>
+  </defs>
+  <rect width="1400" height="420" fill="url(#paper)"/>
+  <rect width="1400" height="420" fill="url(#paperGrain)"/>
+  <path d="M54 54H1346M54 366H1346" stroke="#b8aa97" stroke-opacity=".75"/>
+  <path d="M782 54V366" stroke="#b8aa97" stroke-opacity=".55"/>
+  <text x="80" y="90" fill="#7b6c60" font-family="Arial, sans-serif" font-size="13" letter-spacing="4">BOTANICAL ATELIER · PLATE I</text>
+  <text x="79" y="235" fill="#c83863" font-family="Georgia, 'Times New Roman', serif" font-size="150" font-style="italic" letter-spacing="-9">Florae</text>
+  <path d="M82 257H348" stroke="#c83863" stroke-width="2"/>
+  <text x="81" y="310" fill="#33251f" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic">A flower a month,</text>
+  <text x="81" y="344" fill="#33251f" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic">from the edge of the map.</text>
+  <g transform="translate(1072 190)">
+    <path d="M0 70C-2 116 5 145 11 179" fill="none" stroke="#586633" stroke-width="8" stroke-linecap="round"/>
+    <path d="M4 128C-51 89-82 108-107 138C-69 155-32 158 4 128Z" fill="url(#leaf)" stroke="#47572c" stroke-width="1.5"/>
+    <path d="M8 145C54 107 91 113 114 143C77 165 45 167 8 145Z" fill="url(#leaf)" stroke="#47572c" stroke-width="1.5"/>
+    <path d="M-97 138C-63 131-28 130 4 128M8 145C40 144 78 143 106 144" fill="none" stroke="#d6d5a5" stroke-opacity=".65"/>
+    <g transform="translate(0 -26)">
+      <use href="#outerPetal" transform="rotate(0)"/><use href="#outerPetal" transform="rotate(45)"/><use href="#outerPetal" transform="rotate(90)"/><use href="#outerPetal" transform="rotate(135)"/>
+      <use href="#outerPetal" transform="rotate(180)"/><use href="#outerPetal" transform="rotate(225)"/><use href="#outerPetal" transform="rotate(270)"/><use href="#outerPetal" transform="rotate(315)"/>
+      <circle r="60" fill="#a92248"/>
+      <use href="#innerPetal" transform="rotate(22.5)"/><use href="#innerPetal" transform="rotate(67.5)"/><use href="#innerPetal" transform="rotate(112.5)"/><use href="#innerPetal" transform="rotate(157.5)"/>
+      <use href="#innerPetal" transform="rotate(202.5)"/><use href="#innerPetal" transform="rotate(247.5)"/><use href="#innerPetal" transform="rotate(292.5)"/><use href="#innerPetal" transform="rotate(337.5)"/>
+      <circle r="18" fill="#761631" stroke="#f38ca0" stroke-width="3"/>
+      <path d="M-9 2C-4-12 11-11 8 1C5 11-6 10-9 2Z" fill="none" stroke="#f6bdc6" stroke-width="2"/>
+    </g>
+  </g>
+  <g fill="#c83863" opacity=".62"><circle cx="925" cy="83" r="2"/><circle cx="956" cy="105" r="1.5"/><circle cx="1230" cy="101" r="2"/><circle cx="1262" cy="136" r="1.5"/><circle cx="919" cy="267" r="1.5"/><circle cx="1268" cy="274" r="2"/></g>
+  <text x="1270" y="397" text-anchor="end" fill="#7b6c60" font-family="Arial, sans-serif" font-size="12" letter-spacing="2.5">ROSA · CAYAMBE, ECUADOR</text>
+</svg>

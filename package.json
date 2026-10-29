@@ -1,7 +1,7 @@
 {
   "name": "florae",
   "private": true,
-  "description": "Standalone Florae world from Dioramas.",
+  "description": "A botanical archive and monthly specimen atelier concept.",
   "license": "MIT",
   "version": "0.1.0",
   "type": "module",
