@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Florae specimen plates I through IV</title>
+  <desc id="desc">Four botanical illustrations: a crimson rose, pink protea, pale orchid, and blue morpho butterfly.</desc>
+  <defs>
+    <g id="rosePetal"><ellipse cy="-47" rx="25" ry="48" fill="#cf3c62" stroke="#922645" stroke-width="1.5"/></g>
+    <g id="proteaPetal"><path d="M0 0Q-12-44 0-85Q12-44 0 0Z" fill="#c87e81" stroke="#9e5c61" stroke-width="1.3"/></g>
+    <g id="orchidPetal"><ellipse cy="-40" rx="24" ry="45" fill="#e6d9cc" stroke="#bca89b" stroke-width="1.5"/></g>
+  </defs>
+  <rect width="1200" height="360" fill="#f4efe6"/>
+  <path d="M40 38H1160M40 350H1160" stroke="#b7aa9b"/>
+  <path d="M320 38V350M600 38V350M880 38V350" stroke="#b7aa9b" stroke-opacity=".65"/>
+  <text x="55" y="61" fill="#74695f" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">PLATE I</text>
+  <text x="335" y="61" fill="#74695f" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">PLATE II</text>
+  <text x="615" y="61" fill="#74695f" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">PLATE III</text>
+  <text x="895" y="61" fill="#74695f" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">PLATE IV</text>
+  <g transform="translate(180 175)">
+    <path d="M0 40Q-3 76 5 106" fill="none" stroke="#57643a" stroke-width="5"/>
+    <path d="M0 73Q-35 52-51 74Q-26 90 0 73Z" fill="#6e7c45"/>
+    <use href="#rosePetal" transform="rotate(0)"/><use href="#rosePetal" transform="rotate(72)"/><use href="#rosePetal" transform="rotate(144)"/><use href="#rosePetal" transform="rotate(216)"/><use href="#rosePetal" transform="rotate(288)"/>
+    <circle r="31" fill="#b52d53"/><path d="M-16-4Q-8-25 10-13Q23-3 12 15Q2 27-12 13" fill="none" stroke="#f3a0ac" stroke-width="3"/>
+  </g>
+  <g transform="translate(460 185)">
+    <path d="M0 29V98" fill="none" stroke="#617044" stroke-width="6"/>
+    <use href="#proteaPetal" transform="rotate(-75)"/><use href="#proteaPetal" transform="rotate(-50)"/><use href="#proteaPetal" transform="rotate(-25)"/><use href="#proteaPetal"/><use href="#proteaPetal" transform="rotate(25)"/><use href="#proteaPetal" transform="rotate(50)"/><use href="#proteaPetal" transform="rotate(75)"/>
+    <path d="M-49-1Q0 40 49-1Q31 42 0 47Q-31 42-49-1Z" fill="#ad7370"/>
+    <circle r="25" fill="#704e4b"/><g fill="#e7b4a6"><circle cx="-12" cy="-8" r="3"/><circle cx="0" cy="-12" r="3"/><circle cx="12" cy="-8" r="3"/><circle cx="-7" cy="7" r="3"/><circle cx="8" cy="8" r="3"/></g>
+  </g>
+  <g transform="translate(740 173)">
+    <path d="M0 44Q10 76 2 111" fill="none" stroke="#6c7950" stroke-width="5"/>
+    <use href="#orchidPetal" transform="rotate(0)"/><use href="#orchidPetal" transform="rotate(72)"/><use href="#orchidPetal" transform="rotate(144)"/><use href="#orchidPetal" transform="rotate(216)"/><use href="#orchidPetal" transform="rotate(288)"/>
+    <circle r="26" fill="#fffaf1" stroke="#d2b9aa" stroke-width="2"/><path d="M-13 2Q0 38 13 2Q4 8 0 3Q-4 8-13 2Z" fill="#c96d71"/><circle cy="-7" r="6" fill="#deba85"/>
+  </g>
+  <g transform="translate(1020 174)">
+    <path d="M0 4Q-53-75-79-47Q-94-6-18 18Q-91 15-74 58Q-39 85 0 23Z" fill="#3679aa" stroke="#1e527a" stroke-width="2"/>
+    <path d="M0 4Q53-75 79-47Q94-6 18 18Q91 15 74 58Q39 85 0 23Z" fill="#3679aa" stroke="#1e527a" stroke-width="2"/>
+    <path d="M0 4Q-58-52-72-42M0 4Q58-52 72-42" fill="none" stroke="#8ec4df" stroke-width="2"/>
+    <path d="M0-20V44M-3-18Q-19-49-27-51M3-18Q19-49 27-51" fill="none" stroke="#2b3433" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g fill="#2e2823" font-family="Georgia,'Times New Roman',serif" font-size="23" font-style="italic">
+    <text x="55" y="316">Rosa ‘Explorer’</text><text x="335" y="316">Protea cynaroides</text><text x="615" y="316">Phalaenopsis amabilis</text><text x="895" y="316">Morpho peleides</text>
+  </g>
+  <g fill="#82766b" font-family="Arial,sans-serif" font-size="11" letter-spacing="2"><text x="55" y="338">ECUADOR</text><text x="335" y="338">SOUTH AFRICA</text><text x="615" y="338">BORNEO</text><text x="895" y="338">COSTA RICA</text></g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">The Florae visual palette</title>
+  <desc id="desc">Paper, crimson, ink, and leaf green swatches with editorial serif typography.</desc>
+  <rect width="1200" height="275" fill="#f4efe6"/>
+  <path d="M40 36H1160M40 272H1160" stroke="#b7aa9b"/>
+  <text x="54" y="66" fill="#7c6e63" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">FIELD NOTES / VISUAL LANGUAGE</text>
+  <text x="54" y="157" fill="#1f1a17" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="70">A specimen,</text>
+  <text x="54" y="221" fill="#1f1a17" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="70">not a bouquet.</text>
+  <g transform="translate(800 91)">
+    <rect width="76" height="76" fill="#f4efe6" stroke="#b7aa9b"/><rect x="90" width="76" height="76" fill="#d6456b"/><rect x="180" width="76" height="76" fill="#1f1a17"/><rect x="270" width="76" height="76" fill="#5f7044"/>
+    <g fill="#74685e" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5"><text x="0" y="96">PAPER</text><text x="90" y="96">CRIMSON</text><text x="180" y="96">INK</text><text x="270" y="96">LEAF</text></g>
+  </g>
+  <text x="54" y="255" fill="#83766b" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.4">CORMORANT  ·  EB GARAMOND  ·  INTER TIGHT</text>
+</svg>
